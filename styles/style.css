@@ -129,7 +129,7 @@ li {
 
 /* motivation banner styles */
 .motivation-banner {
-  margin : 0 auto;
+  margin: 0 auto;
   width: 1140px;
   height: 300px;
   flex-shrink: 0;
@@ -141,18 +141,61 @@ li {
   margin-bottom: 130px;
 }
 
- .mot-title{
-  color: #FFF;
-font-size: 40px;
-font-weight: 700;
- }
- .mot-text {
+.mot-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+.mot-text {
   display: flex;
   flex-direction: column;
   width: 500px;
   margin: 60px;
- }
- .call-now {
+}
+.call-now {
   width: 160px;
   text-align: center;
- }
+}
+
+/* footer section styles */
+.footer-section {
+  display: flex;
+  background: var(--Dark-01, #151414);
+  gap: 300px;
+  padding: 130px 230px;
+}
+.foot-sec {
+  width: 50%;
+}
+.subscribe {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+#mail {
+  display: block;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  width: 250px;
+  height: 50px;
+  background-color: #151414;
+  color: var(--Dark-07, #f3f3f3);
+  padding-left: 15px;
+}
+
+#sub-btn {
+  background: #005fac;
+  color: #fff;
+  margin-top: 20px;
+}
+.footer-text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.img-container {
+  display: flex;
+  gap: 20px;
+}
