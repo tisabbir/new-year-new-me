@@ -54,3 +54,41 @@
   top: 70%;
   right: 10%;
 }
+
+/* failure section styles */
+.failure-container {
+  display: flex;
+  margin: 140px 200px;
+  gap: 100px;
+}
+.failure-image {
+  width: 50%;
+  display: inline-block;
+}
+#image {
+  width: 100%;
+}
+.failure-text{
+  width: 50%;
+  display: inline-block;
+}
+
+.failure-title {
+  color: var(--Dark-01, #151414);
+font-size: 40px;
+font-weight: 700;
+}
+
+.failure-description {
+  color: var(--Dark-02, #444343);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+ }
+
+ li {
+  color: var(--Dark-02, #444343);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+ }
