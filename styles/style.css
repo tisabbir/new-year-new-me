@@ -3,6 +3,9 @@
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   line-height: normal;
+  box-sizing: border-box;
+  max-width: 1250px;
+  margin: 0 auto;
 }
 
 .btn-primary {
@@ -196,6 +199,11 @@ li {
 }
 
 .img-container {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-bar {
   display: flex;
   gap: 20px;
 }
