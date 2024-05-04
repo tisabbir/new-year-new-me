@@ -79,6 +79,7 @@
   color: var(--Dark-01, #151414);
   font-size: 40px;
   font-weight: 700;
+  font-style: italic;
 }
 
 .failure-description {
