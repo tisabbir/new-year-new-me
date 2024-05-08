@@ -209,3 +209,8 @@ li {
   justify-content: right;
   align-items: center;
 }
+
+.why-i-failed-title {
+  text-align: center;
+  margin: 0 auto;
+}
