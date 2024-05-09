@@ -214,3 +214,11 @@ li {
   text-align: center;
   margin: 0 auto;
 }
+
+.why-i-failed-container{
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  justify-items: center;
+}
